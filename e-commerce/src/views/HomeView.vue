@@ -1,7 +1,9 @@
 <template>
-  <div class="container-fluid" style="background-color:#3664F4 ;">
-    <div class="d-flex justify-content-center">
-      <img src="../assets/images/homepageBanner.gif" alt="">
+  <div class="container-fluid " style="background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+background-blend-mode: overlay, overlay, exclusion, normal;">
+    <div class="d-flex justify-content-center p-5">
+      Add
+      <!-- <img src="../assets/images/homepageBanner.gif" alt=""> -->
     </div>
     <div class="container-fluid d-flex justify-content-center">
       <div class="content my-4 d-flex">
@@ -179,7 +181,7 @@
         </div>
         <div class="box">
           <div class="item">
-            <img src="../assets/images/charcoal-modway-platform-beds-mod-6887-cha-64_1000.avif" alt="">
+            <img src="../assets/images/Beds.webp" alt="">
           </div>
           <div class="pro-info">
             <p class="px-3 py-1">
@@ -239,13 +241,9 @@
         </div>
       </div>
     </div>
-    <div class="d-flex justify-content-center py-4">
-      <button class="btn btn-success px-3 h5">More</button>
-    </div>
-    
   </div>
   <footer>
-    <div class="container-fluid" style="background-color:#252525 ;">
+    <div class="container-fluid py-5" style="background-color: #00073F;">
         <div class="row">
             <div class="col-4">
                 <div class="my-3">
@@ -265,8 +263,9 @@
             <div class="col-4 d-flex justify-content-center align-item-center">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item "><span class="nav-link"><RouterLink to="/"><span>Home</span></RouterLink></span></li>
-                    <li class="nav-item "><span class="nav-link"><RouterLink to="/about"><span>About</span></RouterLink></span></li>
-                    <li class="nav-item "><span class="nav-link"><RouterLink to="/product"><span>Product</span></RouterLink></span></li>
+                    <li class="nav-item "><span class="nav-link"><RouterLink to="/beds"><span>Beds</span></RouterLink></span></li>
+                    <li class="nav-item "><span class="nav-link"><RouterLink to="/sofas"><span>Sofas</span></RouterLink></span></li>
+                    <li class="nav-item "><span class="nav-link"><RouterLink to="/chairs"><span>Chairs</span></RouterLink></span></li>
                 </ul>
             </div>
             <div class="footer col-4">

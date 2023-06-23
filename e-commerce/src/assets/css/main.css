@@ -9,11 +9,12 @@ i {
     color: #ffffff;
 }
 .menu li span:hover{
-    color:#924BED ;
+    color:#FFCD4D ;
     transition: all 0.3s;
+
 }
 .menu .login a{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -49,8 +50,11 @@ footer .footer{
 }
 .content{
     width: 1800px;
-    height: 400px;
+    height: auto;
     justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 3rem;
 }
 .box{
     width:300px;
