@@ -5,11 +5,3 @@
     <button @click="$emit('cancel')" class="btn btn-primary">Cancel</button>
   </div>
 </template>
-
-<style>
-@media (min-width: 1618px) {
-  .checkout {
-    min-height: 100vh;
-  }
-}
-</style>

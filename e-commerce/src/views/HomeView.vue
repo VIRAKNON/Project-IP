@@ -1,12 +1,11 @@
 <template>
-  <div class="container-fluid " style="background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
-background-blend-mode: overlay, overlay, exclusion, normal;">
+  <div class="container-fluid ">
     <div class="d-flex justify-content-center p-5">
-      Add
-      <!-- <img src="../assets/images/homepageBanner.gif" alt=""> -->
+      <img src="../assets/images/homepageBanner.gif" alt="">
     </div>
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="content my-4 d-flex">
+    <div class="container d-flex justify-content-center">
+
+      <div class="content my-4">
         <div class="box">
           <div class="item">
             <img src="../assets/images/p1.jpg" alt="">
@@ -17,7 +16,7 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
             <nav>
               <span class="text-danger h5 px-3"><del>$60.00</del></span>
               <span class="text-primary h5 px-3">$50.00</span>
-              <span class="px-4"><button @click="$emit('checkout')" class="btn btn-sm btn-outline-success"><i class="fas fa-cart-arrow-down"></i></button></span>
+              <span class="px-4"><button @click="$emit('productDetail')" class="btn btn-sm btn-outline-success"><i class="fas fa-cart-arrow-down"></i></button></span>
             </nav>
           </div>
         </div>
@@ -81,10 +80,6 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
             </nav>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="content my-4 d-flex">
         <div class="box">
           <div class="item">
             <img src="../assets/images/ba3f66ee-3712-4d40-9dff-e049c5a58b38.d6f97090ec3274638b81ca9839cbb56c.jpeg" alt="">
@@ -160,10 +155,6 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
             </nav>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid d-flex justify-content-center">
-      <div class="content my-4 d-flex">
         <div class="box">
           <div class="item">
             <img src="../assets/images/HTB1HOR4XyHrK1Rjy0Flq6AsaFXaF.jpg_640x640Q90.jpg_.webp" alt="">
@@ -243,13 +234,13 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
     </div>
   </div>
   <footer>
-    <div class="container-fluid py-5" style="background-color: #00073F;">
+    <div class="container-fluid py-5" style="background-color: #D4E8FF;">
         <div class="row">
             <div class="col-4">
                 <div class="my-3">
                     <a class="navbar-brand" href="#">
-                        <span><img src="../assets/images/snapsvg-logo.png" alt="logo" width="52px" ></span>
-                        <span class="h1 text-warning px-2">Modern Furnitures</span>
+                        <!-- <span><img src="../assets/images/snapsvg-logo.png" alt="logo" width="52px" ></span> -->
+                        <span class="h1 text-warning px-2" style="font-family: 'Lobster', cursive; font-size: 70px;">Modern Furnitures</span>
                     </a>
                 </div>
                 <div class="">
@@ -269,7 +260,7 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
                 </ul>
             </div>
             <div class="footer col-4">
-                <h4 class="text-light mt-3 py-2">Stay In Touch! Join our Newsletter</h4>
+                <h4 class="text-dark mt-3 py-2">Stay In Touch! Join our Newsletter</h4>
                 <a href="#"><i class="fab fa-cc-visa"></i></a>
                 <a style="color:#4265D6 ;" href="#" ><i class="fab fa-cc-amex"></i></a>
                 <a href="#"><i class="fab fa-cc-mastercard"></i></a>

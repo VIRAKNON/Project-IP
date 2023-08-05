@@ -9,6 +9,7 @@
 import { RouterLink, RouterView } from "vue-router";
 import Index from "./views/Index.vue";
 import Checkout from "./views/Checkout.vue";
+import Login from "./views/Login.vue";
 export default {
   data() {
     return {
@@ -18,6 +19,7 @@ export default {
   components: {
     Index,
     Checkout,
+    Login,
   },
 };
 </script>

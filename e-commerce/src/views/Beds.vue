@@ -1,7 +1,6 @@
 <template>
-  <div class="container-fluid" style="background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
-background-blend-mode: overlay, overlay, exclusion, normal;">
-        <div class="container-fluid d-flex justify-content-center">
+  <div class="container-fluid" style="background: #ffffff">
+        <div class="container d-flex justify-content-center">
             <div class="content my-4">
                 <div class="box">
                     <div class="item">
@@ -216,14 +215,14 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
                 
             </div>
         </div>
-  </div>
-  <footer>
+    </div>
+    <footer>
     <div class="container-fluid py-5" style="background-color: #00073F;">
         <div class="row">
             <div class="col-4">
                 <div class="my-3">
                     <a class="navbar-brand" href="#">
-                        <span><img src="../assets/images/snapsvg-logo.png" alt="logo" width="52px" ></span>
+                        <!-- <span><img src="../assets/images/snapsvg-logo.png" alt="logo" width="52px" ></span> -->
                         <span class="h1 text-warning px-2">Modern Furnitures</span>
                     </a>
                 </div>
@@ -251,5 +250,5 @@ background-blend-mode: overlay, overlay, exclusion, normal;">
             </div>
         </div>
     </div>
-  </footer>
+    </footer>
 </template>
